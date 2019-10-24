@@ -54,6 +54,9 @@ class QuotesSpiderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+        
+           def spider_opened(self, spider):
+        spider.logger.info('Spider opened: %s' % spider.name)
 
 
 class QuotesDownloaderMiddleware(object):
